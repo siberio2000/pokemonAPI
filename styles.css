@@ -2,10 +2,12 @@
   margin: 0;
   font-family:  'Montserrat', sans-serif;
 }
+
 h1, h3{
   text-align: center;
   padding: 1em;
 }
+
 body {
     background: linear-gradient(
         60deg,
@@ -48,15 +50,8 @@ img:hover {
     transform: scale(2.05) translateZ(0);
 }
 
-
-
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
-  
-/*       
-    body {
-        background:rgba(84, 58, 183, 1);
-    } */
 
     main {
         margin: auto;

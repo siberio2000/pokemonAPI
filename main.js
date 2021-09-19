@@ -1,3 +1,5 @@
+// render data in UI
+
 function renderPokemon(data) {
 
   var main = document.getElementsByTagName("main")[0];
@@ -13,6 +15,8 @@ function renderPokemon(data) {
   h3.textContent = data.name;
   card.appendChild(h3);
 }
+
+// fetch API
 
 function getPokemon(url) {
   fetch(url)
